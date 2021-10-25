@@ -1,7 +1,6 @@
 import './App.scss';
 import { BrowserRouter as Router, Switch/*, Route*/ } from "react-router-dom";
-import MyNavbar from './layouts/Navbar/navbar'
-
+import MyNavbar from '../navbar'
 
 function App() {
   return (

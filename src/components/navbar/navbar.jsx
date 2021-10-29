@@ -1,26 +1,26 @@
 import React from 'react'
 import logo from '../../img/logo.svg';
-import { NavLink  } from "react-router-dom";
+import NavItem from "../navbar-item/navitem"
 import './navbar.scss';
 
 const Navbar = () => {
+
+    let maxId = 0;
+    const itemProps = ["Головна", "Про нас", "Хочу бути корисним!", "Контакти"];
+    let elements = itemProps.map((item) => {
+        return (
+            <NavItem label={item} id ={maxId++} />
+        )
+    });
+
     return (
         <header className="My-header">
-            <img src={logo} className="My-logo" alt="logo" width="190px" />
-            <ul className="nav-bar">
-                <li>
-                    <NavLink to="/">Головна</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/about">Про нас</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/help">Хочу бути корисним!</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/contacts">Контакти</NavLink>
-                </li>
-            </ul>
+            <div className="My-container container">
+                <img src={logo} className="My-logo" alt="logo" width="180px" />
+                <ul className="nav-bar">
+                    {elements}
+                </ul>
+            </div>
         </header>
     );
 }

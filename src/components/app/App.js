@@ -2,6 +2,9 @@ import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MyNavbar from '../navbar'
 import MainPage from '../../pages/mainpage/'
+import AboutPage from '../../pages/aboutpage/'
+import GiveHelpPage from '../../pages/givehelppage/'
+import ContactsPage from '../../pages/contactspage/'
 
 function App() {
   return (
@@ -9,9 +12,9 @@ function App() {
       <MyNavbar />
       <Switch>
         <Route path='/' exact component={MainPage} />
-        {/* <Route path='/cats' component={Cats} />
-        <Route path='/sheeps' component={Sheeps} />
-        <Route path='/goats' component={Goats} /> */}
+        <Route path='/about'  component={AboutPage} />
+        <Route path='/givehelp' component={GiveHelpPage} />
+        <Route path='/contacts' component={ContactsPage} />
       </Switch>
     </Router>
 

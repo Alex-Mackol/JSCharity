@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../assets/fonts/OpenSans.eot');
+    src: local('☺'), url('../assets/fonts/OpenSans.woff') format('woff'),
+        url('../assets/fonts/OpenSans.ttf') format('truetype'),
+        url('../assets/fonts/OpenSans.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT_Sans';
+    src: url('../assets/fonts/PT_Sans-Web-Bold.eot');
+    src: local('☺'), url('../assets/fonts/PT_Sans-Web-Bold.woff') format('woff'),
+        url('../assets/fonts/PT_Sans-Web-Bold.ttf') format('truetype'),
+        url('../assets/fonts/PT_Sans-Web-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT_Sans';
+    src: url('../assets/fonts/PT_Sans-Web-Regular.eot');
+    src: local('☺'), url('../assets/fonts/PT_Sans-Web-Regular.woff') format('woff'),
+        url('../assets/fonts/PT_Sans-Web-Regular.ttf') format('truetype'),
+        url('../assets/fonts/PT_Sans-Web-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../assets/fonts/WorkSans.eot');
+    src: local('☺'), url('../assets/fonts/WorkSans.woff') format('woff'),
+        url('../assets/fonts/WorkSans.ttf') format('truetype'),
+        url('../assets/fonts/WorkSans.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,16 @@
+li {
+    a {
+        text-decoration: none;
+        list-style-type: none;
+        align-items: center;
+
+        &.active {
+            color: #394A5F;
+
+            &:hover {
+                color: #67BEEA;
+                border-bottom: 2px solid #394A5F;
+            }
+        }
+    }
+}

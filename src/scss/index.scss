@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-image: url('../img/background.svg');
-  background-size: cover ;
+  background-size: cover;
 }
 
 code {
@@ -19,31 +19,52 @@ code {
     monospace;
 }
 
-.p-OpSan{
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 31px;
-    letter-spacing: -0.02em;
-    color: #FFFFFF;
+.p-OpSan {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
 
-    &-10 {
-      @extend .p-OpSan;
-      font-size: 10px;
-    }
+  &-10 {
+    @extend .p-OpSan;
+    font-size: 10px;
+  }
+
+  &-25 {
+    @extend .p-OpSan;
+    font-size: 25px;
+  }
 }
 
-.p-PTSan{
-    font-family: "PT_Sans", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 15px;
-    text-transform: uppercase;
+.p-PTSan {
+  font-family: "PT_Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #000000;
 
-    color: #000000;
+  &-15 {
+    @extend .p-PTSan;
+    font-size: 15px;
+  }
+}
 
-    &-15{
-      @extend .p-PTSan;
-      font-size:15px; 
-    }
+.p-WS {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+
+  &-18{
+    @extend .p-WS;
+    font-size: 18px;
+  }
 }

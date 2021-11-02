@@ -1,14 +1,16 @@
 import Carousel from '../../components/carousel'
+import Text from "../../components/carousel-text"
 
 import "./mainpage.scss"
 
-const MainPage = () =>{
-    return(
+const MainPage = () => {
+    return (
         <div className="container">
             <div className="carousel">
-                <Carousel/> 
+                <Text className="text-posit" />
+                <Carousel />
             </div>
-        </div> 
+        </div>
     );
 }
 export default MainPage;

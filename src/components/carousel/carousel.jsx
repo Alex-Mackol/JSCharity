@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap';
 import Image from '../../img/img_boy.svg'
 
+import "./carousel.scss"
 
 const MyCarousel = () => {
     return (

@@ -48,7 +48,17 @@ code {
 
   &-15 {
     @extend .p-PTSan;
+    line-height: 20px;
     font-size: 15px;
+  }
+  &-30 {
+    @extend .p-PTSan;
+    line-height: 30px;
+    font-size: 30px;
+  }
+  &-40 {
+    @extend .p-PTSan;
+    font-size: 40px;
   }
 }
 
@@ -56,15 +66,24 @@ code {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
   line-height: 21px;
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
   color: #FFFFFF;
 
-  &-18{
+  &-18 {
     @extend .p-WS;
     font-size: 18px;
+  }
+}
+
+.color{
+  color: #FFFFFF;
+
+  &-grey{
+  color: #3C3C3C;
+  }
+  &-blue{
+    color: #3FBEEC;
   }
 }

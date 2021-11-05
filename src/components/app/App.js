@@ -11,8 +11,12 @@ function App() {
     <Router>
       <MyNavbar />
       <Switch>
-        <Route path='/' exact component={MainPage} />
-        <Route path='/about'  component={AboutPage} />
+        <Route exact path='/'>
+          <MainPage />
+        </Route>
+        <Route path="/about">
+          <AboutPage />
+        </Route>
         <Route path='/givehelp' component={GiveHelpPage} />
         <Route path='/contacts' component={ContactsPage} />
       </Switch>

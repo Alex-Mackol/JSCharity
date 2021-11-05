@@ -1,0 +1,21 @@
+.footer {
+    position: flex;
+    text-align: center;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid transparent;
+
+    background: white;
+    background-image: url(../../img/mainMission.png); 
+
+    &-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 50px 0px 0px 0px;
+
+        &-text{
+            margin-left: 15px;
+        }
+    }
+}

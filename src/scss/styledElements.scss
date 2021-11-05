@@ -1,16 +1,30 @@
 .banner-button {
-    position:relative;
-    top:50%;
-    width: 250px;
-    height: 40px;
-    text-align: center;
-    z-index: 2;
- 
-    &.need-help {
-       padding: 10px;
-       color: #FFFFFF;
-       background: #FF4A4A;
-       border: 2px solid #FFFFFF;
-       border-radius: 20px;
-    }
- }
+   position: relative;
+   width: 250px;
+   height: 40px;
+   text-align: center;
+   z-index: 2;
+
+   &.need-help {
+      padding: 10px;
+      color: #FFFFFF;
+      background: #FF4A4A;
+      border: 2px solid #FFFFFF;
+      border-radius: 20px;
+   }
+}
+
+.widthText {
+   &-200 {
+      width: 200px;
+   }
+   &-300 {
+      width: 300px;
+   }
+   &-400 {
+      width: 400px;
+   }
+   &-500 {
+      width: 550px;
+   }
+}

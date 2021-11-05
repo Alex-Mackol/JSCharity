@@ -66,11 +66,15 @@ code {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  line-height: 21px;
-  display: flex;
+  line-height: 20px;
+  // display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #000000;
 
+  &-12 {
+    @extend .p-WS;
+    font-size: 12px;
+  }
   &-18 {
     @extend .p-WS;
     font-size: 18px;
@@ -78,7 +82,7 @@ code {
 }
 
 .color{
-  color: #FFFFFF;
+  color: #000000;
 
   &-grey{
   color: #3C3C3C;
@@ -86,4 +90,8 @@ code {
   &-blue{
     color: #3FBEEC;
   }
+  &-white{
+    color: #FFFFFF;
+  }
 }
+

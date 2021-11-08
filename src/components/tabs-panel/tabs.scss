@@ -1,0 +1,101 @@
+.divMission {
+    &-content {
+        padding: 20px 0px 0px 10px;
+    }
+}
+
+ul[class=react-tabs__tab-list] {
+    border-bottom: 1px solid black;
+    width: fit-content;
+
+    li[class=react-tabs__tab] {
+        font-family: "PT_Sans", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #475C77;
+    }
+}
+
+.react-tabs__tab--selected {
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 0;
+    background-color: #6BC3F0;
+    border:0px;
+}
+
+.what-we-do {
+    width: auto;
+    height: auto;
+    margin-left: -70px;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+
+    .div-table-text {
+        position: relative;
+        width: 400px;
+        height: 76px;
+        margin-top: -76px;
+        opacity: 0.8;
+        text-align: center;
+        padding-top: 6.5%;
+        background: white;
+    }
+
+    .table {
+        display: table;
+        width: 400px;
+        border-collapse: collapse;
+        empty-cells: show;
+        margin-left: 50px;
+
+        &-colgroup {
+            display: table-column;
+        }
+
+        &-tbody {
+            display: table-row-group;
+        }
+
+        &-tr {
+            display: table-row;
+        }
+
+        &-td {
+            display: table-cell;
+            padding: 30px 50px 50px 100px;
+            background-size: cover;
+
+            & img{
+                width: 100%;
+           }
+        }
+    }
+}
+
+/* documents */
+.document-page{
+    width: 1029px;
+    height: 324px;
+    margin: 20px 0px;
+
+    &-title{
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+
+    &-text{
+        width: 1029px;
+        height: 300px;
+        padding: 0px 0px 0px 10px;
+        overflow: hidden;
+        display: flex;
+
+        &-text{
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+    }
+}

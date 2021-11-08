@@ -6,7 +6,7 @@ import "../../scss/index.scss"
 const CarouselText = (props) => {
     let width = "text " + props.width;
     return (
-        <div /*class={props.classDiv}*/>
+        <div class={props.classDiv}>
             <div class="title">
                 <p class={props.titleStyle}>{props.title}</p>
             </div>

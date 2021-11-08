@@ -7,9 +7,12 @@ const Navbar = () => {
 
     let maxId = 0;
     const itemProps = ["Головна", "Про нас", "Хочу бути корисним!", "Контакти"];
-    let elements = itemProps.map((item) => {
+    const itemLink=["/","/about","/givehelp","/contacts"];
+    let elements = itemProps.map((item,i) => {
         return (
-            <NavItem label={item} id ={maxId++} />
+            <NavItem label={item}
+             id ={maxId++}
+             link= {itemLink[i]} />
         )
     });
 

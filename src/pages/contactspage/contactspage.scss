@@ -1,0 +1,25 @@
+.contact {
+    &-content {
+        height: auto;
+        background-color: white;
+        background-image: url(../../img/kubi-fon.svg);
+        text-align: justify;
+    }
+}
+
+.contact-map{
+    width: auto;
+    height: auto;
+    margin: 70px 50px;
+    align-items: flex-start;
+    flex: 1 1 auto;
+    display: flex;
+    background-color: #FFFFFF;
+
+    &-img{
+        padding: 0px 30px 0px 10px;
+    }
+    &-text{
+        margin-top: 80px;
+    }
+}

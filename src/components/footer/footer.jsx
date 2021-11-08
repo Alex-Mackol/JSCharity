@@ -34,7 +34,7 @@ const MyFooter = () => {
                             titleStyle={"p-WS-18 color-blue"}
                             label={""}
                             labelStyle={"p-WS-12 color-grey"} />
-                            {/* <Icons/> */}
+                            <Icons/>
                     </div>
                 </div>
             </div>

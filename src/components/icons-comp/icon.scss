@@ -15,23 +15,12 @@ $googlePlus:#DB4437;
   @return unquote($value);
 }
 
-body{
-  background-color: $dark;
-  font-family: 'Raleway', sans-serif;
-}
-
 .socialIcons{
   padding:0;
   margin:0;
   list-style-type:none;
   display:inline-block;
-//   position:fixed;
-//   top: 0;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-//   margin:auto;
-  height:70px;
+  height:50px;
   text-align:center;
   li{
     display:inline-block;
@@ -50,6 +39,7 @@ body{
         0px 0px 1px rgba(0,0,0,1),
         0px 0px 1px rgba(0,0,0,1);
       transform:rotateX(-30deg);
+      
       &:hover{
         transform:rotateX(-30deg) translateY(-20px) ;
         &.facebook{

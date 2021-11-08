@@ -28,10 +28,10 @@ import "../../scss/index.scss"
     //         classNames += "active";
     //     }
 
-    const NavItem = ({label,id}) =>{
+    const NavItem = ({label,id,link}) =>{
         return (
             <li key={id}>
-                <NavLink className="p-PTSan-15" to="/">{label}</NavLink>
+                <NavLink className="p-PTSan-15" to={link}>{label}</NavLink>
             </li>
         )
     // }

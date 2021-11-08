@@ -1,0 +1,27 @@
+.about {
+    &-content {
+        height: auto;
+        background-color: white;
+        background-image: url(../../img/kubi-fon.svg);
+        text-align: justify;
+    }
+
+    &-back {
+        background-image: url(../../img/dandelion.png);
+        background-size: cover;
+        width: 1150px;
+        height: 370px;
+        margin: 0px 0px 0px 80px;
+        padding: 50px 0px 0px 50px;
+    }
+    &-navMini{
+        position: relative;
+        margin-top: -300px;
+        margin-left: 120px;
+        //  width: 385px;
+    }
+}
+.textHeader {
+    padding: 70px 0px 0px 100px;
+}
+

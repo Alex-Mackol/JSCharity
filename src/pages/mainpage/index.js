@@ -2,14 +2,12 @@ import Carousel from '../../components/carousel'
 import Text from "../../components/text-div"
 import Button from "../../components/button-help"
 import foto_Hand from "../../img/Ellipse_img_hands.svg"
-import Footer from "../../components/footer"
 
 import style from "./mainpage.module.css"
 import "../../scss/styledElements.scss"
 
 const MainPage = () => {
     return (
-        <div>
             <div className="container">
                 <div className={style.carousel}>
                     <div className={style.textPosit}>
@@ -60,8 +58,6 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
-        </div>
     );
 }
 export default MainPage;

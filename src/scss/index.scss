@@ -51,6 +51,22 @@ code {
     line-height: 20px;
     font-size: 15px;
   }
+  &-W400-15 {
+    @extend .p-PTSan;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  &-20 {
+    @extend .p-PTSan;
+    line-height: 20px;
+    font-size: 20px;
+  }
+  &-25 {
+    @extend .p-PTSan;
+    line-height: 20px;
+    font-size: 25px;
+  }
   &-30 {
     @extend .p-PTSan;
     line-height: 30px;
@@ -74,6 +90,15 @@ code {
   &-12 {
     @extend .p-WS;
     font-size: 12px;
+  }
+  &-16 {
+    @extend .p-WS;
+    font-size: 16px;
+  }
+  &-W400-18 {
+    @extend .p-WS;
+    font-weight: 400;
+    font-size: 18px;
   }
   &-18 {
     @extend .p-WS;
